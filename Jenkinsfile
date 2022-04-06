@@ -48,7 +48,7 @@ pipeline {
         
         always
         {
-            emailext body: 'testing pipeline', subject: 'pipeline  status', to: 'apps@krisuz.com'
+            emailext body: 'testing pipeline', subject: 'pipeline  status', to: 'notify@unknown.com'
         }
     }
 }
